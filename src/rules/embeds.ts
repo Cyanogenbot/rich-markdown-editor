@@ -1,5 +1,5 @@
 import MarkdownIt from "markdown-it";
-import Token from "markdown-it/lib/token";
+import Token from "markdown-it/lib/token.mjs";
 
 function isParagraph(token: Token) {
   return token.type === "paragraph_open";
